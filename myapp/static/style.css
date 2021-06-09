@@ -1,0 +1,123 @@
+.style {
+    margin-left: 27px;
+}
+
+.styleButton {
+    margin-left: 15px;
+}
+
+.navbarStyle {
+    margin-left: 170px;
+    margin-top: 20px;
+}
+
+.navbarColor {
+    background-image: linear-gradient(to right, #fafafa, #eeeeee, #e0e0e0, #e0e0e0);
+    border-radius: 20px;
+    padding-bottom: 18px;
+    align-items: center;
+    align-content: center;
+}
+
+.footerbutton {
+    margin-left: 35px;
+}
+
+.navLine {
+    background-image: #7e57c2;
+    columns: 10;
+    align-items: center;
+    margin-top: -3px;
+}
+
+.ab {
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: small;
+}
+
+.l0 {
+    background-image: linear-gradient(to right, #F88119, #CA673D, #461BAC);
+    height: 30px;
+    border-color: #fafafa;
+}
+
+.a {
+    text-align: center;
+    border-style: none;
+    border-top: none;
+    border-bottom: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    font-style: normal;
+}
+
+.body {
+    padding-bottom: 100px;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    min-height: 100%;
+    display: grid;
+    grid-template-rows: 1fr auto;
+}
+
+.footer {
+    grid-row-start: 2;
+    grid-row-end: 3;
+    margin-left: 650px;
+    margin-top: 50px;
+}
+
+.gradientLine {
+    background-image: linear-gradient(to right, #ffcc80, #ffb74d, #ffa726, #ff9800, #fb8c00, #f57c00, #ef6c00, #e65100);
+    color: white;
+}
+
+.loading {
+    animation: rotacao 1s infinite;
+    border: 10px solid #e5e5e5;
+    border-radius: 50%;
+    border-top-color: orange;
+    height: 100px;
+    width: 100px;
+  }
+  
+  @keyframes rotacao {
+    to {
+      transform: rotate(360deg);
+    }
+  }
+
+
+  /* This is a compiled file, you should be editing the file in the templates directory */
+.pace {
+    -webkit-pointer-events: none;
+    pointer-events: none;
+  
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+  }
+  
+  .pace-inactive {
+    display: none;
+  }
+  
+  .pace .pace-progress {
+    background:orange;
+    position: fixed;
+    z-index: 2000;
+    top: 0;
+    right: 100%;
+    width: 100%;
+    height: 3px;
+  }
+  
